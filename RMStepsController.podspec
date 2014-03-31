@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "CooperRS" => "rm@cooperrs.de" }
   s.source       = { :git => "https://github.com/CooperRS/RMStepsController.git", :tag => "1.0.0" }
   s.source_files = 'RMStepsController/*'
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.1'
   s.requires_arc = true
   s.framework    = 'QuartzCore'
 end
